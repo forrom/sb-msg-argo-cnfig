@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: forrom/spring-boot-msg:2
+        image: forrom/spring-boot-msg:3
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
